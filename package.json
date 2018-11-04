@@ -1,0 +1,33 @@
+{
+  "name": "venturebot",
+  "version": "1.2.3",
+  "description": "Discord bot for VentureTowny",
+  "main": "mybot.js",
+  "engines": {
+    "node": "8.9.4",
+    "npm": "5.6.0"
+  },
+  "dependencies": {
+    "colors": "^1.2.1",
+    "discord.js": "^11.3.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node mybot.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DynamicDonkey/VentureBot.git"
+  },
+  "keywords": [
+    "discord.js",
+    "venture"
+  ],
+  "author": "Jared Kozel",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/DynamicDonkey/VentureBot/issues"
+  },
+  "homepage": "https://github.com/DynamicDonkey/VentureBot#readme"
+}
