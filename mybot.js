@@ -455,7 +455,7 @@ client.on('message', msg => {
               },
               title: `Changelog of bot`,
               fields: [{
-                  name: "Version 1.0.1.2-DL",
+                  name: "Version 1.0.2-DL",
                   value: "To get changelog of a version, do /dl changelog <version>",
                 },
                 {
