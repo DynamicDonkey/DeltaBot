@@ -24,7 +24,7 @@ const StaffRole = "506910737575444480";
 client.on('ready', () => {
   client.user.setActivity('DL | /dl help', { type: 'PLAYING' });
   let guild = client.guilds.find("id", `505564220377661441`);
-  let channel = guild.channels.find("name", "bot-console");
+  let channel = guild.channels.find("name", "bot-diagnostics");
   channel.send ("[INFO] Success! Bot is online.")
   //swearModule.bypassRoutine();
   //swearModule.swearRoutine();
