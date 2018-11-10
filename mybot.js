@@ -710,6 +710,42 @@ client.on('message', msg => {
     }
   }
 
+  if (msg.content == "/dl staff") {
+  	msg.channel.send({embed: {
+          color: 15860226,
+          author: {
+            name: msg.author.username,
+            icon_url: msg.author.avatarURL
+          },
+          title: "Delta Lounge Staff",
+          description: "Use these to get in contact with us!",
+          fields: [{
+             	name: `UnknownDirectory#2408`,
+              	value: `Our beloved owner and founder of the server. Be sure to thank him!`,
+            },
+            {
+              	name: `DynamicDonkey#6339`,
+              	value: `Developer of this bot, manager of the subreddit, and misc. tech work for the server.`,
+            },
+            {
+            	name: `McWolf#9844`,
+            	value: `OG Moderator, been here since the beginning.`,
+            },
+            {
+            	name: `Garlicvideos#5659`,
+            	value: `Co-developer of this bot, also just a pretty neat guy. Ask him about Tuxcoin!`,
+            },
+          ],
+          timestamp: new Date(),
+          footer: {
+            icon_url: client.user.avatarURL,
+            text: "I am a bot, this action was performed automatically."
+              }
+            }
+          });
+
+  }
+
   if (msg.content.startsWith("/dl welcome")) {
     if (msg.channel.type == "dm") {
       msg.channel.send ("You can only use \"/dl config\" commands in the Delta Lounge Discord Server.");
