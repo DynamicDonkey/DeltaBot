@@ -402,7 +402,7 @@ client.on('message', msg => {
   }
 
   if (msg.content.startsWith("/dl changelog")) {
-    let verNo = msg.content.slice(14, msg.content.length);
+    let verNo = normalMessage.slice(14, normalMessage.length);
     if (verNo == "") {
       verNo = ver;
     }
